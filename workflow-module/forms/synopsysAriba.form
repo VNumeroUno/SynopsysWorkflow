@@ -1,0 +1,65 @@
+{
+    "id": "NewId",
+    "schemaVersion": "1.1.0",
+    "name": "NewForm",
+    "revision": "NewRevision",
+    "type": "start",
+    "readOnly": false,
+    "content": [
+        {
+            "id": "ariba_supplier_on_boarding",
+            "type": "section",
+            "title": "Ariba Supplier On Boarding",
+            "content": [
+                {
+                    "id": "name",
+                    "type": "string",
+                    "label": "Name",
+                    "readOnly": false,
+                    "value": "${context.Name}",
+                    "constraints": {
+                        "required": false
+                    }
+                },
+                {
+                    "id": "userid",
+                    "type": "string",
+                    "label": "UserId",
+                    "readOnly": false,
+                    "value": "${context.userId}",
+                    "constraints": {
+                        "required": false
+                    }
+                },
+                {
+                    "id": "email",
+                    "type": "string",
+                    "label": "Email",
+                    "readOnly": false,
+                    "value": "${context.email}",
+                    "constraints": {
+                        "required": false
+                    }
+                },
+                {
+                    "id": "mobile",
+                    "type": "string",
+                    "label": "Company",
+                    "readOnly": false,
+                    "value": "${context.company}",
+                    "constraints": {
+                        "required": false
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "id": "action1",
+            "text": "Approve",
+            "workflowDefinitionId": "cis.myworkflow",
+            "workflowPath": "/home/user/projects/synopsysworkflow/workflow-module/workflows/MyWorkflow.workflow"
+        }
+    ]
+}
