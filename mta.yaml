@@ -1,6 +1,6 @@
 _schema-version: "3.2"
 ID: synopsysworkflow
-version: 0.0.4
+version: 0.0.10
 modules:
 - name: synopsysworkflow-destination-content
   type: com.sap.application.content
