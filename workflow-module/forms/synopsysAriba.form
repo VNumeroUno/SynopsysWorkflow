@@ -58,7 +58,7 @@
         {
             "id": "action1",
             "text": "Approve",
-            "workflowDefinitionId": "cis.myworkflow",
+            "workflowDefinitionId": "synopsysworkflow",
             "workflowPath": "/home/user/projects/synopsysworkflow/workflow-module/workflows/MyWorkflow.workflow"
         }
     ]

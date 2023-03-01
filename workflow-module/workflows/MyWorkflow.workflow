@@ -2,8 +2,8 @@
 	"contents": {
 		"a3e1d065-59f1-4602-8587-8847e3d6482b": {
 			"classDefinition": "com.sap.bpm.wfs.Model",
-			"id": "cis.myworkflow",
-			"subject": "MyWorkflow",
+			"id": "synopsysworkflow",
+			"subject": "Synopsys Workflow",
 			"name": "MyWorkflow",
 			"documentation": "",
 			"lastIds": "62d7f4ed-4063-4c44-af8b-39050bd44926",
